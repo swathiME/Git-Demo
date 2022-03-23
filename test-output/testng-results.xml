@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-07T10:27:58 IST" name="Default suite" finished-at="2022-03-07T10:28:58 IST" duration-ms="60198">
+    <groups>
+    </groups>
+    <test started-at="2022-03-07T10:27:58 IST" name="Default test" finished-at="2022-03-07T10:28:58 IST" duration-ms="60198">
+      <class name="UnDosTres.UnDosTresTest.Sampletest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:UnDosTres.UnDosTresTest.Sampletest@60bd273d]" started-at="2022-03-07T10:27:58 IST" name="launchBrowser" finished-at="2022-03-07T10:28:42 IST" duration-ms="44565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="ApplucationOperations()[pri:0, instance:UnDosTres.UnDosTresTest.Sampletest@60bd273d]" started-at="2022-03-07T10:28:43 IST" name="ApplucationOperations" finished-at="2022-03-07T10:28:57 IST" duration-ms="14540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplucationOperations -->
+        <test-method signature="paymentcheck()[pri:0, instance:UnDosTres.UnDosTresTest.Sampletest@60bd273d]" started-at="2022-03-07T10:28:57 IST" name="paymentcheck" finished-at="2022-03-07T10:28:58 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentcheck -->
+      </class> <!-- UnDosTres.UnDosTresTest.Sampletest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
