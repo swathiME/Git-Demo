@@ -29,11 +29,14 @@ public class Sampletest {
 		System.setProperty("webdriver.chrome.driver",driverpath);
 		driver=new ChromeDriver();
 		driver.get(baseURL);
+		System.out.println("changed it");
 	}
 	
 	@Test
 	public void ApplucationOperations()
 	{
+		
+		System.out.println("changed it twice");
 		String expectedurl="https://sanbox.undostres.com.mx/payment.php";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		driver.findElement(By.xpath("//div[@class='user-interact']/div[2]/ul/li[1]/div/div/input[@name='operator']")).click();
