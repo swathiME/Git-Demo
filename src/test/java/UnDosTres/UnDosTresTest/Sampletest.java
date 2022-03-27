@@ -30,12 +30,13 @@ public class Sampletest {
 		driver=new ChromeDriver();
 		driver.get(baseURL);
 		System.out.println("changed it");
+		System.out.println("I changed it too");
 	}
 	
 	@Test
 	public void ApplucationOperations()
 	{
-		
+		System.out.println("I changed it too");
 		System.out.println("changed it twice");
 		String expectedurl="https://sanbox.undostres.com.mx/payment.php";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
