@@ -31,6 +31,10 @@ public class Sampletest {
 		driver.get(baseURL);
 		System.out.println("changed it");
 		System.out.println("I changed it too");
+
+		System.out.println("Asian swathi");
+
+		System.out.println("Asian branching");
 	}
 	
 	@Test
